@@ -1,0 +1,43 @@
+* {
+    font-family: Arial, Helvetica, sans-serif; 
+    color: white;
+    background-color:#176CBB ;
+}
+.header-container{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.titulo{
+    display: flex;
+    
+}
+.container {
+    display: flex;
+    justify-content:space-evenly;
+    width: 35%;
+    align-items:center;
+    
+}
+.container a {
+    background-color:#398AD6 ;
+    border-radius: 5px;
+    padding: 10px;
+    font-weight: bolder;
+    cursor: pointer;
+    text-decoration: none;
+}
+.content-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 600px;
+}
+
+.content-container aside {
+    padding: 20px;
+    width: 500px;
+}
+.content-container img {
+    border-radius: 20px;
+}
